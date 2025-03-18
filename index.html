@@ -124,10 +124,10 @@
 <!-- Thumbnails bar -->
 <br>
 <p class="thumbnails-bar" id="thumbnailsBar">
-    <img src="assets/sr15.jpg" class="thumbnail" id="thumb0" onclick="changeVideo(0)">
+    <img src="assets/sr25.jpg" class="thumbnail" id="thumb3" onclick="changeVideo(0)">
     <img src="assets/sr12.jpg" class="thumbnail" id="thumb1" onclick="changeVideo(1)">
     <img src="assets/sr18.jpg" class="thumbnail" id="thumb2" onclick="changeVideo(2)">
-    <img src="assets/sr25.jpg" class="thumbnail" id="thumb3" onclick="changeVideo(3)">
+    <img src="assets/sr15.jpg" class="thumbnail" id="thumb0" onclick="changeVideo(3)">
     <img src="assets/sr27.jpg" class="thumbnail" id="thumb4" onclick="changeVideo(4)">
 </p>
 
@@ -135,7 +135,7 @@
 <br>
 <div class="video-container">
     <video id="videoPlayer" controls loop>
-        <source src="assets/videoSRC15_1920x1080_30.yuv_qp_19_51.mp4" type="video/mp4">
+        <source src="assets/videoSRC25_1920x1080_24.yuv_qp_16_51.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 
@@ -144,6 +144,8 @@
         <button class="nav-button" onclick="changeVideo('next')">&#8250;</button>
     </div>
 </div>
+
+<p style="text-align: center;">Please expand the video to at least 1080p for better clarity and contrast.</p>
 
 <br>
 
@@ -209,10 +211,10 @@ These designs significantly simplify our NVC, effectively reducing operational c
 
 <script>
   const videos = [
-      { src: "assets/videoSRC15_1920x1080_30.yuv_qp_19_51.mp4", thumbnail: "assets/sr15.jpg" },
+      { src: "assets/videoSRC25_1920x1080_24.yuv_qp_16_51.mp4", thumbnail: "assets/sr25.jpg" },
       { src: "assets/videoSRC12_1920x1080_30.yuv_qp_13_51.mp4", thumbnail: "assets/sr12.jpg" },
       { src: "assets/videoSRC18_1920x1080_25.yuv_qp_12_51.mp4", thumbnail: "assets/sr18.jpg" },
-      { src: "assets/videoSRC25_1920x1080_24.yuv_qp_16_51.mp4", thumbnail: "assets/sr25.jpg" },
+      { src: "assets/videoSRC15_1920x1080_30.yuv_qp_19_51.mp4", thumbnail: "assets/sr15.jpg" },
       { src: "assets/videoSRC27_1920x1080_30.yuv_qp_17_51.mp4", thumbnail: "assets/sr27.jpg" },
   ];
 
